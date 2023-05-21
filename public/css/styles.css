@@ -4,3 +4,18 @@
 *:after {
   box-sizing: border-box;
 }
+
+nav {
+  background-color: #8F0021;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex: auto;
+}
+
+li {
+  
+}
