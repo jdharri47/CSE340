@@ -10,6 +10,8 @@ router.get("/type/:classificationId", utilities.handleErrors(invController.build
 // Route to build detail view
 router.get("/detail/:inventoryId", utilities.handleErrors(invController.buildByInventoryId));
 
+router.get("/inv/", utilities.handleErrors(invController))
+
 // Route for intentional error
 router.get("/error/:errorId", utilities.handleErrors(invController.buildError))
 
